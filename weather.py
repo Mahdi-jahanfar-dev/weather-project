@@ -19,7 +19,7 @@ def getting_weather():
                 main = data['main']
                 temp = main['temp']
                 db.set(f'{city} temp', temp)
-                print(f'{city} temp is : {db.get(f'{city} temp')}')
+                print(f'{city} temp is : {db.get(f"{city} temp")}')
             else:
                 print(temp_response.status_code)
         else:

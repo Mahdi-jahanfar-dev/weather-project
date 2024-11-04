@@ -2,4 +2,4 @@ import redis
 
 
 
-db = redis.Redis(host='localhost', port=6379, db=0)
+db = redis.Redis(host='redis', port=6379, db=0)
